@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F16E9A029781FD7009DCE0C /* ConnpassCoredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F16E99E29781FD7009DCE0C /* ConnpassCoredata.xcdatamodeld */; };
+		7F16E9A2297820B5009DCE0C /* Persistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16E9A1297820B5009DCE0C /* Persistent.swift */; };
+		7FB4CC9829685CAB003CBEDB /* ConpassApiProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4CC9729685CAB003CBEDB /* ConpassApiProjectApp.swift */; };
+		7FB4CC9A29685CAB003CBEDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4CC9929685CAB003CBEDB /* ContentView.swift */; };
+		7FB4CC9C29685CAD003CBEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB4CC9B29685CAD003CBEDB /* Assets.xcassets */; };
+		7FB4CC9F29685CAD003CBEDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB4CC9E29685CAD003CBEDB /* Preview Assets.xcassets */; };
+		7FBF65DB29701C38000225D9 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF65DA29701C38000225D9 /* SecondView.swift */; };
+		7FBFB76D297A1E5E002E04C9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBFB76C297A1E5E002E04C9 /* HomeView.swift */; };
+		7FBFB76F297A1FC6002E04C9 /* EventIdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBFB76E297A1FC6002E04C9 /* EventIdView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F16E99F29781FD7009DCE0C /* ConnpassCoredata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConnpassCoredata.xcdatamodel; sourceTree = "<group>"; };
+		7F16E9A1297820B5009DCE0C /* Persistent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent.swift; sourceTree = "<group>"; };
+		7FB4CC9429685CAB003CBEDB /* ConpassApiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConpassApiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB4CC9729685CAB003CBEDB /* ConpassApiProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConpassApiProjectApp.swift; sourceTree = "<group>"; };
+		7FB4CC9929685CAB003CBEDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FB4CC9B29685CAD003CBEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FB4CC9E29685CAD003CBEDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FBF65DA29701C38000225D9 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		7FBFB76C297A1E5E002E04C9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7FBFB76E297A1FC6002E04C9 /* EventIdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventIdView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB4CC9129685CAB003CBEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FB4CC8B29685CAA003CBEDB = {
+			isa = PBXGroup;
+			children = (
+				7FB4CC9629685CAB003CBEDB /* ConpassApiProject */,
+				7FB4CC9529685CAB003CBEDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB4CC9529685CAB003CBEDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB4CC9429685CAB003CBEDB /* ConpassApiProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB4CC9629685CAB003CBEDB /* ConpassApiProject */ = {
+			isa = PBXGroup;
+			children = (
+				7FB4CC9729685CAB003CBEDB /* ConpassApiProjectApp.swift */,
+				7FB4CC9929685CAB003CBEDB /* ContentView.swift */,
+				7F16E99E29781FD7009DCE0C /* ConnpassCoredata.xcdatamodeld */,
+				7F16E9A1297820B5009DCE0C /* Persistent.swift */,
+				7FBF65DA29701C38000225D9 /* SecondView.swift */,
+				7FB4CC9B29685CAD003CBEDB /* Assets.xcassets */,
+				7FB4CC9D29685CAD003CBEDB /* Preview Content */,
+				7FBFB76C297A1E5E002E04C9 /* HomeView.swift */,
+				7FBFB76E297A1FC6002E04C9 /* EventIdView.swift */,
+			);
+			path = ConpassApiProject;
+			sourceTree = "<group>";
+		};
+		7FB4CC9D29685CAD003CBEDB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FB4CC9E29685CAD003CBEDB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FB4CC9329685CAB003CBEDB /* ConpassApiProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB4CCA229685CAD003CBEDB /* Build configuration list for PBXNativeTarget "ConpassApiProject" */;
+			buildPhases = (
+				7FB4CC9029685CAB003CBEDB /* Sources */,
+				7FB4CC9129685CAB003CBEDB /* Frameworks */,
+				7FB4CC9229685CAB003CBEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConpassApiProject;
+			productName = ConpassApiProject;
+			productReference = 7FB4CC9429685CAB003CBEDB /* ConpassApiProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB4CC8C29685CAA003CBEDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7FB4CC9329685CAB003CBEDB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 7FB4CC8F29685CAA003CBEDB /* Build configuration list for PBXProject "ConpassApiProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FB4CC8B29685CAA003CBEDB;
+			productRefGroup = 7FB4CC9529685CAB003CBEDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB4CC9329685CAB003CBEDB /* ConpassApiProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB4CC9229685CAB003CBEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB4CC9F29685CAD003CBEDB /* Preview Assets.xcassets in Resources */,
+				7FB4CC9C29685CAD003CBEDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB4CC9029685CAB003CBEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F16E9A2297820B5009DCE0C /* Persistent.swift in Sources */,
+				7F16E9A029781FD7009DCE0C /* ConnpassCoredata.xcdatamodeld in Sources */,
+				7FBF65DB29701C38000225D9 /* SecondView.swift in Sources */,
+				7FBFB76D297A1E5E002E04C9 /* HomeView.swift in Sources */,
+				7FB4CC9A29685CAB003CBEDB /* ContentView.swift in Sources */,
+				7FBFB76F297A1FC6002E04C9 /* EventIdView.swift in Sources */,
+				7FB4CC9829685CAB003CBEDB /* ConpassApiProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7FB4CCA029685CAD003CBEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FB4CCA129685CAD003CBEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FB4CCA329685CAD003CBEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConpassApiProject/Preview Content\"";
+				DEVELOPMENT_TEAM = N28L9FHHL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-10.cm.jec.ac.jp.ConpassApiProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FB4CCA429685CAD003CBEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConpassApiProject/Preview Content\"";
+				DEVELOPMENT_TEAM = N28L9FHHL4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-10.cm.jec.ac.jp.ConpassApiProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB4CC8F29685CAA003CBEDB /* Build configuration list for PBXProject "ConpassApiProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB4CCA029685CAD003CBEDB /* Debug */,
+				7FB4CCA129685CAD003CBEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB4CCA229685CAD003CBEDB /* Build configuration list for PBXNativeTarget "ConpassApiProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB4CCA329685CAD003CBEDB /* Debug */,
+				7FB4CCA429685CAD003CBEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F16E99E29781FD7009DCE0C /* ConnpassCoredata.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F16E99F29781FD7009DCE0C /* ConnpassCoredata.xcdatamodel */,
+			);
+			currentVersion = 7F16E99F29781FD7009DCE0C /* ConnpassCoredata.xcdatamodel */;
+			path = ConnpassCoredata.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7FB4CC8C29685CAA003CBEDB /* Project object */;
+}
